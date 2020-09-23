@@ -1,0 +1,43 @@
+Type=Exe
+Form=EggTimer.frm
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\..\..\..\..\..\WINNT\System32\stdole2.tlb#OLE Automation
+Class=clsTrayIcon; clsTrayIcon.cls
+IconForm="frmEggTimer"
+Startup="frmEggTimer"
+HelpFile=""
+Title="Cn's EggTimer"
+ExeName32="EggTimer.exe"
+Command32=""
+Name="CnEggTimer"
+HelpContextID="0"
+Description="A general use timer utility."
+CompatibleMode="0"
+MajorVer=1
+MinorVer=1
+RevisionVer=25
+AutoIncrementVer=1
+ServerSupportFiles=0
+VersionComments="EggTimer allows you to either set a duration (30min) or a specific time (1:15pm) for it to prompt you. Once you enter in the duration or the time, it minimizes itself into the system tray where you can access it to check the time remaining, reset/change the time, or pause/resume/stop the timer. You can also see the time remaining by simply floating over the tray icon. When the timer expires, a ‘vbSystemModal’ message box is popped above your working app to let you know the time is up. This thing is really handy if you sometimes need a reminder of the time when you’re working on the computer =) "
+VersionCompanyName="n/a"
+VersionFileDescription="See Comments"
+VersionLegalCopyright="It's open source and it's free!  Available for download at:  http://software.isontheweb.com/  http://www.planetsourcecode.com/vb/scripts/ShowCode.asp?txtCodeId=34028&lngWId=1"
+VersionLegalTrademarks="n/a"
+VersionProductName="Cn's EggTimer"
+CompilationType=0
+OptimizationType=0
+FavorPentiumPro(tm)=0
+CodeViewDebugInfo=0
+NoAliasing=0
+BoundsCheck=0
+OverflowCheck=0
+FlPointCheck=0
+FDIVCheck=0
+UnroundedFP=0
+StartMode=0
+Unattended=0
+Retained=0
+ThreadPerObject=0
+MaxNumberOfThreads=1
+
+[MS Transaction Server]
+AutoRefresh=1
